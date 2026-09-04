@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modhw"
+version = "0.1.0"
+description = "Laptop companion for the modhw modular hardware lab tool"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "modhw contributors" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+modhw = "modhw_companion.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

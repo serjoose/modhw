@@ -1,0 +1,8 @@
+Hardware design files in this directory (schematics, layouts, BOMs, gerbers)
+are intended to be released under the CERN Open Hardware Licence Version 2 -
+Permissive (CERN-OHL-P-2.0) once real KiCad sources exist.
+
+https://ohwr.org/cern_ohl_p_v2.txt
+
+Until then, treat sketches and READMEs as documentation under the same
+contribution rules as the rest of the repository.

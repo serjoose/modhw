@@ -1,0 +1,50 @@
+# Build / firmware
+build/
+cmake-build-*/
+.pio/
+.pioenvs/
+.piolibdeps/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+compile_commands.json
+
+# Python companion
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.net
+*.dsn
+*.ses
+*.un~
+_autosave-*
+\#auto_saved_files\#
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+!.vscode/extensions.json
+
+# Secrets — never commit dumps from real devices
+captures/
+dumps/
+*.bin.dump
+secrets/
